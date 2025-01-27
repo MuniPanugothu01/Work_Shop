@@ -28,13 +28,10 @@ const TodoList = () => {
       </form>
 
       <ul>
-        {
-            store.map((item)=>
-        <li key={item.toString()}>{item}</li>
-            )
-        }
+        {store.map((item) => (
+          <li key={item.toString()}>{item}</li>
+        ))}
       </ul>
-    
     </>
   );
 };
