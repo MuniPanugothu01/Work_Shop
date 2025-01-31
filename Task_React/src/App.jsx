@@ -1,10 +1,12 @@
 import Counter from "./UseState/Counter";
-import TodoList from './UseState/TodoList'
+import TodoList from './UseState/TodoList';
+import TodoEdit from './UseState/TodoEdit';
 function App() {
   return (
     <>
       {/* <Counter /> */}
-      <TodoList/>
+      {/* <TodoList/> */}
+<TodoEdit/>
     </>
   );
 }
